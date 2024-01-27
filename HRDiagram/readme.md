@@ -11,9 +11,9 @@ and normal Gaia server load, the query to retrieve ~200k stars takes 20 to 60 se
 Gaia DR3 query for nearby stars as follows:
  * stars within 100pc ($\varpi\ge$ 10 mas)
  * parallax uncertainty <1% ($\varpi/\sigma_\varpi\ge$ 100)
- * apparent magnitude $m_G$<18
+ * apparent magnitude $m_G<18$
  * BP and RP fluxes with SNR>10 ($F_x/\sigma_{F_x}\ge$10)
- * proper motions with SNR>10 ($|\mu_x/\sigma_{\mu_x}|\ge$10)
+ * proper motions with SNR>10 ($\|\mu_x/\sigma_{\mu_x}\|\ge$10)
  * Renormalised Unit Weight Error (RUWE) < 1.4
 
 This query returns about 200k stars and takes ~15-60 seconds depending on the server load and your
