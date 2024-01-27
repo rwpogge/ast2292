@@ -12,7 +12,7 @@ Gaia DR3 query for nearby stars as follows:
  * stars within 100pc ($\varpi\ge$ 10 mas)
  * parallax uncertainty <1% ($\varpi/\sigma_\varpi\ge$ 100)
  * apparent magnitude $m_G<18$
- * BP and RP fluxes with SNR>10 ($F_x/\sigma_{F_x}\ge$10)
+ * BP and RP fluxes with SNR>10 (F<sub>x</sub>/$\sigma$<sub>Fx</sub> > 10)
  * proper motions with SNR>10 ($\|\mu_x/\sigma_{\mu_x}\|\ge$10)
  * Renormalised Unit Weight Error (RUWE) < 1.4
 
